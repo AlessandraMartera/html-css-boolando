@@ -5,35 +5,34 @@
     box-sizing: border-box;
 }
 
-/* .center-container {
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
 /* header */
 header {
     height: 100px;
     padding: 0 20%;
-    background-color: orange;
+    background-color: #ff6900;
     display: flex;
-    justify-content: ;
     align-items: center;
 }
-
 #type-menu {
     width: 25%;
 }
 
 #logo {
     width: 50%;
+    text-align: center;
 }
 
+#logo img {
+    height: 30px;
+}
 #account-menu {
     width: 25%;
+    text-align: right;
 }
 
 /* main */
@@ -67,17 +66,14 @@ footer {
 
 /* header */
 #type-menu{
-    height: 50px;
     border: 1px solid black;
 }
 
 #logo {
-    height: 50px;
     border: 1px solid black;
 }
 
 #account-menu {
-    height: 50px;
     border: 1px solid black;
 }
 
