@@ -16,11 +16,16 @@ a:hover {
 }
 /* header */
 header {
-    height: 100px;
+    width: 100%;
+    height: 50px;
     padding: 0 20%;
     background-color: #ff6900;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 #type-menu {
     width: 25%;
@@ -41,10 +46,12 @@ header {
 
 /* main */
 main {
+    margin-top: 60px;
     padding: 20px 20%;
 }
 
 .row {
+    margin: 20px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -88,6 +95,7 @@ main {
 
 /* label */
 .label {
+    color: white;
     padding: 4px;
     position: absolute;
     left: 0;
@@ -95,18 +103,17 @@ main {
 }
 
 .label-two {
+    color: white;
     padding: 4px;
     position: absolute;
     left: 45px;
     bottom: 100px;
 }
 .discount {
-    color: white;
     background-color: red;
 }
 
 .veg {
-    color: white;
     background-color: #008000;
 }
 
@@ -129,22 +136,21 @@ footer {
     padding: 10px 20% 0 20%;
     display: flex;
     justify-content: space-between;
-}
+} 
 
 #info-privacy {
     width: 400px;
-    height: 100%;
 }
 
 #icons, #info-privacy {
-    margin: 10px 0;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
 /* DEBUG */
 
 /* header */
-#type-menu{
+/* #type-menu{
     border: 1px solid black;
 }
 
@@ -158,11 +164,11 @@ footer {
 
 .center-container {
     border: 2px solid white;
-}
+} */
 /* main */
 
 
-.row {
+/* .row {
     border: 5px dotted green;
 }
 
@@ -173,22 +179,22 @@ article {
 
 .heart {
     border: 1px dotted black;
-}
+} */
 /* label */
-.label-discount {
+/* .label-discount {
     border: 1px dotted black;
 }
 
 .label-veg {
     border: 1px dotted black;
-}
+} */
 
 
 
 /* footer */
-footer {
+/* footer {
     border: 1px dotted red;
 }
 footer section {
     border: 1px dotted white;
-}
+} */
